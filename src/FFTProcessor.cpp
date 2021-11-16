@@ -129,11 +129,16 @@ void FFTProcessor::print_energy()
 
 void FFTProcessor::print_energy_python()
 {
-    for (int i = 0; i < m_energy_size; i++)
+    int i = 0;
+    Serial.print("signalFFT = [");
+    for (i = 0; i < m_energy_size-1; i++)
         {
             Serial.print(m_energy[i]);
             Serial.print(',');
         }
+
+        Serial.print(m_energy[i]);
+        Serial.print("]");
 }
 
 void FFTProcessor::print_energy_serialplot()
