@@ -1,5 +1,3 @@
-
-## Usage
 # kissFFT Adaptation for the ESP32 microcontroller
 This is a personal adaptation for the ESP32 microcontroller of the well known kissFFT library.
 
