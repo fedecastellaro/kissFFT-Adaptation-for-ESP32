@@ -42,7 +42,8 @@ public:
 
     float* sin_wave(int frecuency, int wave_lenth);
 
-    void computeFFT(float *reader);
+    void computeFFT(float *data);
+    void computeFFT(uint16_t *data);
 
     void print_energy();
     void print_complex();
