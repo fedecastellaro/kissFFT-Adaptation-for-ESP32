@@ -39,7 +39,7 @@ You can then see the output with various functions (I'll be adding more when i h
 
 ## Testing with a real EMG signal:
 
-![real emg signal](https://user-images.githubusercontent.com/41343686/141879991-6ce92015-42be-4066-894a-da1f40b9b074.png)
+![real emg signal](https://user-images.githubusercontent.com/41343686/141880111-489c5ef0-1dd4-4f3f-ae1e-01655095f136.png)
 
 (You can find this signal in 'data.h')
 
