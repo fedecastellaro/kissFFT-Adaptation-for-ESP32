@@ -7,7 +7,7 @@ This is a personal adaptation for the ESP32 microcontroller of the well known ki
 Invoke a instance of the FFTProcessor class.
 
 ```cpp
-- FFTProcessor *FFT = new FFTProcessor(AUDIO_LENGTH, WINDOW_SIZE);
+- FFTProcessor *FFT = new FFTProcessor(SIGNAL_LENGTH, WINDOW_SIZE);
 ```
 
 This software works perfect when AUDIO_LENGHT and WINDOW_SIZE are equal and less than 1300.
@@ -15,10 +15,10 @@ This software works perfect when AUDIO_LENGHT and WINDOW_SIZE are equal and less
 Test the code with a sine wave. First create a sine wave of frecuency "freq" and Number of samples equal to AUDIO_LENGTH.
 
 ```cpp
-float *sin_200 = FFT->sin_wave(freq, AUDIO_LENGTH);
+float *sin_200 = FFT->sin_wave(freq, SIGNAL_LENGTH);
 ```
 
-(Take in mind that freq has to be < AUDIO_LENGTH/2). For example, if AUDIO_LENGTH = 1200 -> freq < 600.
+(Take in mind that freq has to be < SIGNAL_LENGTH/2). For example, if SIGNAL_LENGTH = 1200 -> freq < 600.
 
 ### Compute the FFT of the signal:
 ```cpp
