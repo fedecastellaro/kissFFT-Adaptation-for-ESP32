@@ -1,4 +1,4 @@
-# kissFFT Adaptation for the ESP32 microcontroller
+# kissFFT Adaptation for the ESP32 or any other microcontroller
 This is a personal adaptation for the ESP32 microcontroller of the well known kissFFT library.
 
 # FFTProcessor Class
